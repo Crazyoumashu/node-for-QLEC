@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1548600245 source:/home/hhw/NET/energy.cpp
+	"energy.h"
+	"simulator.h"
+
+1548422766 /home/hhw/NET/energy.h
+	"node.h"
+
+1548600245 /home/hhw/NET/node.h
+	<vector>
+	<cstring>
+	"net.h"
+	"mac.h"
+	<math.h>
+	<stdio.h>
+
+1548422765 /home/hhw/NET/net.h
+	<cstring>
+	"node.h"
+	"parameters.h"
+	<iostream>
+
+1548750099 /home/hhw/NET/parameters.h
+
+1548422765 /home/hhw/NET/mac.h
+
+1548679805 /home/hhw/NET/simulator.h
+	<iostream>
+	<cstdlib>
+	<thread>
+	<ctime>
+	<cmath>
+	<fstream>
+	<pthread.h>
+	<unistd.h>
+	"node.h"
+	"parameters.h"
+
+1548675020 source:/home/hhw/NET/main.cpp
+	"simulator.h"
+
+1548602326 source:/home/hhw/NET/node.cpp
+	"node.h"
+	"simulator.h"
+	"energy.h"
+
+1548744520 source:/home/hhw/NET/simulator.cpp
+	"simulator.h"
+
